@@ -1,0 +1,11 @@
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+.vscode/
+
+# 데이터는 저장소에 포함하지 않음 (data/README.md 참고)
+data/*
+!data/README.md
+data_clean/*
+!data_clean/.gitkeep
